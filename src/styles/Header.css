@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    align-items: stretch;
+    height: 60px;
+    background: rebeccapurple;
+    padding: 1%;
+    justify-content: space-between;
+}
+header .logo{
+    display: flex;
+    width: 60%;
+}
+header .logo h2{
+    color: white;
+    margin-left: 2%;
+}
+header p{
+    color: white;
+    font-size: 20px;
+    width: 15%;
+}
+header img{
+   height: 60px;
+   width: 60px;
+}

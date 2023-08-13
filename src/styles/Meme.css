@@ -1,0 +1,46 @@
+main{
+    padding: 50px;
+}
+.form{
+    display: grid;
+    align-content: center;
+    grid: 2;
+    grid-template: 40px 40px /1fr 1fr;
+    gap: 17px;
+}
+.form input{
+    border-radius: 5px;
+    border: 1px solid rgb(206, 205, 205);
+    text-indent: 5px;
+}
+.form button{
+    background: rebeccapurple;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    grid-column: 1/-1;/* beging ti the end */
+}
+.memeImage{
+   width: 800px;
+   height: 700px;
+   padding: 2%;
+   position: relative;
+}
+.meme h2{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    font-size: 80px;
+    -webkit-text-stroke: 2px black;
+}
+.meme .text--top{
+   right: 0;
+   left: 0;
+}
+.meme .text--bottom{
+    right: 0;
+    left: 0;
+    top:800px;
+ }
